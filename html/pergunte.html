@@ -3,15 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="../stylesheet.css">
 	<meta charset="utf-8">
-
-	<script>
-    function proximo(){
-        window.location.replace("./tutorial2.html");
-    }
-    </script>
-
 </head>
-
 <body>
 
 	<div class="main-header">
@@ -28,43 +20,33 @@
 
 	</div>
 
-
 	<div class="header">
 		<h1>
-			Tutorial
+			Faça sua Pergunta
 		</h1>
 	</div>
 
 	<p class="main">
-		Como usar o aplicativo?<br>
-		(1/4)
+		<b>Deixe que outros usuários te ajudem a responder suas dúvidas</b>
 	</p>
 
-	<div class="sub">
-	<p>
-		<b>O que é o aplicativo?</b> <br>
-		Com o intuito de ajudar...
-	</p>
 
-	<p class="2">
-		<img class="polaroid" src="..\img/captura1.jpg" width="300" height="260"/>
-	</p>
-
-    </div>
+	<div class="cadastro">
 
 
-    <div class="container-botoes">
+		<form action="acompanhe.html">
+		<div class="container">
+		<label><b>Título da pergunta:</b><label>  <input type="text" name="first_name" placeholder="Quais são os requerimentos para se fechar uma padaria" required/>
+		<label><b>Descrição da pergunta:</b></label>  <input class="longo" type="text" name="last_name" placeholder="" required/>
+		<label><b>Categoria:</b></label>  <input type="text" placeholder="Padaria Ltda" required/>
 
-	    <div class="botao">
-		<button type="submit" onclick="proximo()">Próximo</button>
+
+		<button type="submit">Concluído</button>
 		</div>
-
+		</form>
 
 
 	</div>
-
-
-
 
 	<div class="footer">
 				<nav class="footer">
