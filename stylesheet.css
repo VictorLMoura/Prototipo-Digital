@@ -306,9 +306,7 @@ nav a {
          -o-transition: all .25s ease;
             transition: all .25s ease;
 }
-nav .dropdown:after {
-    content: ' ▶';
-}
+
 nav .dropdown:hover:after{
 	content:'\25bc';
     background: #F06A67 ;
@@ -316,33 +314,8 @@ nav .dropdown:hover:after{
 nav li:hover a {
     background: #e57520;
 }
-nav li ul {
-    float: left;
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    top: 35px;
-    visibility: hidden;
-    z-index: 1;
-    -webkit-transition: all .25s ease;
-       -moz-transition: all .25s ease;
-        -ms-transition: all .25s ease;
-         -o-transition: all .25s ease;
-            transition: all .25s ease;
-}
-nav li:hover ul {
-    opacity: 1;
-    top: 50px;
-    visibility: visible;
-}
-nav li ul li {
-    float: none;
-    width: 100%;
-}
-nav li ul a:hover {
-    background: #E86664;
 
-}
+
 
 
 
